@@ -24,7 +24,7 @@ The **Domain-Scraper** is a Python script that extracts unique domain names from
 
 2. **Navigate into the Cloned Directory**:
    ```bash
-   cd domain-grabber
+   cd Domain-Grabber
    ```
 
 ## Running the Script
