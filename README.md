@@ -19,7 +19,7 @@ The **Domain-Scraper** is a Python script that extracts unique domain names from
 
    Run the following command to clone the repository:
    ```bash
-   git clone https://github.com/md-durjoy/Domain-Scraper.git
+   git clone https://github.com/md-durjoy/Domain-Grabber.git
    ```
 
 2. **Navigate into the Cloned Directory**:
