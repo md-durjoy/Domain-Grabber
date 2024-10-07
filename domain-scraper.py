@@ -30,9 +30,9 @@ if not output_file.endswith('.txt'):
 domains = []
 with open(input_file, 'r') as file:
     for line in file:
-        found_domains = re.findall(r'(https?://)?([a-zA-Z0-9.-]+\.[a-zA-Z]{2,})(/[^ ]*)?', line)
-        for match in found_domains:
-            domain = match[1]
+        # Update regex to match only domain names
+        found_domains = re.findall(r'([a-zA-Z0-9.-]+\.[a-zA-Z]{2,})', line)
+        for domain in found_domains:
             if domain not in domains:
                 domains.append(domain)
 
@@ -41,4 +41,3 @@ with open(output_file, 'w') as file:
         file.write(domain + '\n')
 
 print(f"Extracted {len(domains)} domains and saved to '{output_file}'.")
-
