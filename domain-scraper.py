@@ -41,3 +41,4 @@ with open(output_file, 'w') as file:
         file.write(domain + '\n')
 
 print(f"Extracted {len(domains)} domains and saved to '{output_file}'.")
+
