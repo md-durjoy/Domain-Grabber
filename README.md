@@ -17,12 +17,18 @@ The **Domain-Scraper** is a Python script that extracts unique domain names from
 
 1. **Clone the Repository**:
 
+2. **must clone inDesktop**
+
+       ````bash
+       cd C:\Users\Your_User_Name\Desktop
+       ````
+
    Run the following command to clone the repository:
    ```bash
    git clone https://github.com/md-durjoy/Domain-Grabber.git
    ```
 
-2. **Navigate into the Cloned Directory**:
+4. **Navigate into the Cloned Directory**:
    ```bash
    cd Domain-Grabber
    ```
